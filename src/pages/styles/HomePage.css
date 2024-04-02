@@ -1,0 +1,85 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  gap: 4em;
+  padding: 2.5em;
+}
+.home__logo {
+  position: relative;
+  top: -3em;
+  max-width: 400px;
+}
+.home__string {
+  display: grid;
+  text-align: center;
+  gap: 1em;
+  position: relative;
+  top: -3em;
+}
+.home__salute {
+  color:#FE1936;
+}
+.home__form {
+  position: relative;
+  top: -2em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__input, .home__btn {
+  height: 2.5em;
+  box-shadow: 0px 3px 6px 0px #00000026;
+}
+.home__input {
+  width: 100%;
+  max-width: 300px;
+  padding: 1em;
+}
+.home__btn {
+  background: #D93F3F;
+  color: #FFF;
+  font-weight: 300;
+  width: 200px;
+  padding: 0.3em
+}
+.home__footer {
+  height: 70px;
+  background: #DD1A1A;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.bottom__line {
+  height: 30px;
+  width: 100%;
+  background: #0C0C0C;
+  position: relative;
+}
+.bottom__circle {
+  border: 6px solid #000;
+  background: #FFF;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__circle__center {
+  border: 6px solid #000;
+  background: #212121;
+  width: 25px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

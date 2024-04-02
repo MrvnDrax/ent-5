@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, h4, p, ul, hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  font-family: inherit;
+  outline: none;
+  border: 0;
+}
+button {
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+}
+
+:root {
+  --fire-gradient: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+  --water-gradient: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+  --grass-gradient:linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  --bug-gradient:linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+  --normal-gradient: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+  --fighter-gradient: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+  --poison-gradient: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+  --electric-gradient: linear-gradient(177.03deg, #e5e906 -11.97%, #e3da64 71.28%, #fff09b 135.64%);
+  --fairy-gradient:linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+  --rock-gradient: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+  --ground-gradient: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+  --psychic-gradient:linear-gradient(179.75deg, #af8f00 -19.96%, #897e1a 43.67%, #d6be38 138.4%);
+  --ghost-gradient: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+  --ice-gradient: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+  --dragon-gradient:linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+  --dark-gradient: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+  --steel-gradient:linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+  --flying-gradient: linear-gradient(179.75deg, #008a5c -19.96%, #07c98b 43.67%, #71f1d1 138.4%);
+  --grass-border: #B1DBBC;
+  --fighter-border:#96402A;
+  --electric-border: #e5e906;
+  --water-color: #1479FB;
+  --fire-color:  #E35825; 
+  --grass-color:#416460;
+  --bug-color: #4AB648;
+  --normal-color: #735259;
+  --fighter-color:#E95B36;
+  --poison-color: #5B3184;
+  --electric-color: #c9b508;
+  --fairy-color: #971B45 ;
+  --ground-color: #654008;
+  --rock-color:#7E7E7E;
+  --psychic-color:#af8f00;
+  --ghost-color: #323569;
+  --ice-color: #6FBEDF;
+  --dragon-color: #478A93;
+  --dark-color:#030706;
+  --steel-color: #5E736C;
+  --flying-color: #00ffb3;
+}
